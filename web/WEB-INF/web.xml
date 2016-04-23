@@ -13,5 +13,21 @@
     <servlet-name>LoginServlet</servlet-name>
     <url-pattern>/LoginServlet</url-pattern>
   </servlet-mapping>
+       <servlet>
+    <servlet-name>Inscart</servlet-name>
+    <servlet-class>ecomerce.Inscart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Inscart</servlet-name>
+    <url-pattern>/Inscart</url-pattern>
+  </servlet-mapping>
+        <servlet>
+    <servlet-name>ProServlet</servlet-name>
+    <servlet-class>ecomerce.ProServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProServlet</servlet-name>
+    <url-pattern>/ProServlet</url-pattern>
+  </servlet-mapping>
   
 </web-app>
